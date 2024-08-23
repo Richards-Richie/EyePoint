@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Avenir:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+
+#top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topclass{
+    height:2.8em;
+}
+.hline {
+    width: 100%;
+    height: 3px;
+    background-color: #ddd;
+    margin: 0; 
+    position: absolute;
+    top: 2.7em;
+}
+
+#back{
+    position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    width: 90px;
+    height: 40px;
+    color: rgb(52, 97, 156);
+    border-radius: 20px;
+    border: 2px solid white;
+    top: 0.2em;
+    left:0.2em;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+}
+
+
+#new{
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    width: 170px;
+    height: 40px;
+    top: 0.2em;
+    right: 0.2em;
+    border-radius: 20px;
+    border: 2px solid white;
+    color: rgba(0, 0, 0, 0.918);
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+}
+
+.arrow {
+    font-size: 20px;
+    margin-right: 3px;
+    align-items: center;
+}
+
+#new:hover{
+    background-color:#f1f5f4 ;
+}
+#back:hover{
+    background-color: #f1f5f4;
+}
+
+
+hr{
+    position: relative;
+    top: -4.2em;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5em;
+    height: 5em;
+}
+#head{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 350;
+    font-size: 32px;
+    margin-top: 0.5em;
+    color: black;
+
+}
+
+#view{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.line{
+    border-left: 0.15em solid rgba(51, 49, 49, 0.521);
+    height: 8em;
+    margin-left: 17px;
+
+}
+label{
+    color: rgb(72, 142, 169);
+    font-weight: bold;
+}
+.box{
+    width: 40%;
+    height: 18em;
+}
+
+#box-in{
+    font-family: "Poppins", sans-serif;
+    width: 50%;
+    position: relative;
+    left: 17.5em;
+}
+
+#box-heading{
+    font-weight: lighter;
+    font-size:large;
+    width: 295px;
+    text-align: center;
+    margin-top: -0em;
+    padding-bottom: 1em;
+}
+#or{
+    position: relative;
+    font-size: 0.9em;
+    left: 0.2em;
+    padding: 5px;
+}
+
+#log1{
+
+    padding: .5em;
+    width: 118%;
+    height:40px;
+    border: 1px solid #0F2435;
+    border-radius: 32px;
+    background-color: #0f273b;
+    color: white;
+}
+
+.google{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 51%;
+    padding: .5em;
+    border: 1px solid rgba(0, 0, 0, 0.712);
+    background-color: rgb(222, 255, 255);
+    border-radius: 23px;
+    cursor: pointer;
+    height: 25px;
+}
+
+#box{
+    font-family: "Avenir",sans-serif;
+    position: relative;
+    left: -1.5em;
+    display: flex;
+    flex-direction: column; /* Align children in a column */
+    justify-content: center; /* Center children vertically */
+    height: 38vh; /* Adjust height as needed */
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 51%;
+    padding: .5em;
+    border: 1px solid #BBD5FF;
+    border-radius: 23px;
+    height: 25px;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+#foot{
+    text-align: center; 
+    font-size: small ;
+    color: #3E86F6;
+    cursor: pointer;
+}
+
+.ltext{
+    font-weight: lighter;
+    font-size:small;
+}
+
+.lbtext{
+    height: 23px;
+    width: 100%;
+}
+
+#log1{
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    width: 105%;
+    /* left: 10px; */
+}
+
+.forhei{
+    position: relative;
+    top: -25px;
+}
+
+.ltext,.lbtext{
+    position: relative;
+    top: -15px;
+}
+
+
+#passtext{
+    font-weight: lighter;
+    font-size:small;
+}
+
+#pbox{
+    height: 1.8em;
+    width: 100%;
+}
+
+input{
+    padding: .65em;
+    width: 110%;
+    border: 1px solid rgb(5, 22, 17);
+    border-radius: 12px;
+}

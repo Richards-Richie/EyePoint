@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7; /* Light background color for contrast */
+}
+
+.register-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#log-in{
+  text-decoration: underline;
+  cursor: pointer;
+
+}
+.top-right {
+  position: absolute;
+  top: 10px; /* Adjust as needed */
+  right: 10px; /* Adjust as needed */
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.555);
+}
+
+.logo {
+  margin-bottom: 20px;
+  height: 90px;
+  border-radius: 100px;
+}
+
+.register-box {
+  width: 300px; /* Adjust as needed */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 12px;
+}
+
+.header h2 {
+  margin: 0 0 20px 0; /* Adjust spacing as needed */
+  font-size: 24px; /* Big letters */
+  font-weight: bold; /* Bold letters */
+  text-align: center; /* Centered text */
+  font-size: 25px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border-radius: 8px; /* Added border-radius */
+}
+
+.note {
+  font-size: 12px;
+  color: #777;
+  font-size: 9px;
+}
+
+.bullet-points ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 0;
+ 
+}
+
+.bullet-points li {
+  width: 48%; /* Adjust width to fit two items per line */
+  box-sizing: border-box;
+  font-size: 9px;
+}
+
+.button {
+  width: 100%;
+  padding: 15px; /* Make the button bigger */
+  background-color: #0f2435;
+  /* Black background */
+  color: white; /* White text */
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 16px; /* Increase font size for better readability */
+
+}
+
+.button:hover {
+  background-color: #333; /* Slightly lighter black for hover effect */
+}
+
+.terms {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #555;
+  text-align: center;
+  font-size: 9px;
+}
+
+.terms .highlight {
+  color: #007bff;
+}

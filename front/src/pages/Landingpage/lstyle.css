@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+
+body{
+    padding: 0;
+    margin:0;
+}
+
+
+html {
+  scroll-behavior: smooth;
+} 
+
+
+.landing-header {
+  font-family: "Outfit", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px; /* Add padding to the left and right sides */
+  background-color:#f0f8f8; /* Example background color */
+  
+}
+
+.landing-logo img {
+  height: 90px; /* Adjust as needed */
+  border-radius: 100px;
+  margin-left: 150px; 
+  
+}
+
+.landing-nav{
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 6px 20px;
+  width: 70%;
+  margin-right: 100px;
+  margin-left: 4%;
+}
+
+.landing-navigation {
+  display: flex;
+  margin-right: auto; 
+  align-items: center;
+  margin-left: 2%;
+  margin-left: 0px;
+}
+
+.landing-navigation ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+
+}
+
+.landing-navigation li {
+  margin: 0 15px;
+}
+
+.landing-navigation a {
+  text-decoration: none;
+  color: black;
+  transition: color 0.2s;
+  font-size: 14px;
+}
+
+.landing-navigation a:hover {
+  color: #55BDB3;
+}
+
+.landing-buttons {
+  font-family: "Outfit", sans-serif;
+  display: flex;  
+  margin-right: 2%;
+  width: 30%;
+  
+}
+
+
+.landing-register-btn,
+.landing-login-btn {
+  font-family: "Outfit", sans-serif;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 10px; /* Space between buttons */
+  width: 50%;
+}
+
+.landing-register-btn {
+  background-color: #55bdb3;
+  border-radius: 8px;
+  font-size: 14px;
+  border: 0px solid #55bdb3; 
+  color: white; 
+}
+
+.landing-login-btn {
+  background-color: white; 
+  color: #55bdb3;
+  border: 2px solid #55bdb3; 
+  border-radius: 8px;
+}
+
+.landing-register-btn:hover{
+  background-color: #32857c;
+  color: white;
+}
+.landing-login-btn:hover{
+  border: 2px solid #32857c;
+  color: #32857c;
+
+}
+
+#c1 {
+  font-family: "Outfit", sans-serif;
+
+  min-height: 70vh;
+  display: flex;
+  flex-direction: row;
+  background-color: #f0f8f8;
+  padding: 1in; 
+  padding-left: 6em;
+
+}
+
+.landing-text-container{
+  margin-top: -4em;
+  padding-left: 1em;
+}
+.content1{
+  font-size: 60px;
+  font-weight: 500px;
+}
+#line1{
+  color: #55BDB3;
+}
+#line2{
+  color: #0F2435;
+  margin-top: -1em;
+  margin-bottom: -0.9em;
+}
+
+.line3{
+  font-size: 25px;
+  font-weight: 50px;
+  width: 85%;
+  margin-top: -1em;
+}
+.line4{
+  font-size: 25px;
+  width: 90%;
+  margin-top: -1em;
+}
+.servicesbutton {
+  font-family: "Outfit", sans-serif;
+
+  color: white;
+  background-color: #0f2435;
+  border-radius: 8px;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 2em;
+  margin-left: 5em;
+}
+
+.robo-image{
+  margin-top: 1em;
+
+}

@@ -1,0 +1,123 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");
+@import url('https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f7faf8;
+    overflow: hidden; 
+}
+
+.reset-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f2f2f2;
+    padding-top: 20px;
+    position: relative;
+}
+
+.reset-back-link {
+    align-self: flex-start;
+    margin: 0px 30px;
+    color: #bbd5ff;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.reset-back-link:hover {
+    text-decoration: underline;
+}
+
+.reset-logo {
+    width: 112px;
+    height: 104px;
+    border-radius: 100%;
+    position: absolute;
+    top: 60px; 
+    align-items: center;
+    z-index: 1;
+}
+
+.reset-container {
+    width: 1200px;
+    height: 450px;
+    background-color: #f0f8f8;
+    margin: 60px auto 20px auto; 
+    padding: 60px 70px;
+    text-align: center;
+    border-radius: 5px;
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.reset-title {
+    font-size: 2rem;
+    margin-top: -150px; 
+    color: #4c4c4c;
+    font-weight: 150;
+    font-family: "Poppins", sans-serif;
+}
+
+.reset-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+    gap:20px;
+}
+
+.right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 110px;
+    gap:30px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+
+.input-group label {
+    font-size: 14px;
+    color: #438CFF;
+    font-family: "Poppins", sans-serif;
+}
+
+.input-group input {
+    padding: 10px;
+    border: 1px solid #666666;
+    border-radius: 10px;
+    width: 280px; 
+    background-color: #f0f8f8;
+}
+
+.otp-button {
+    padding: 10px 30px;
+    width: 280px;
+    border: 2px solid #ccc;
+    border-radius: 32px;
+    color: #ffffff;
+    background-color: #0f2345;
+    cursor: pointer;
+}
+
+.otp-button:hover {
+    background-color: #222222;
+}

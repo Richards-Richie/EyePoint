@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+#App {
+    font-family: 'Outfit', sans-serif;
+    align-items: center;
+    height: 750px;
+    width: 90%;
+    margin:auto;
+    padding-left: 10%;
+    min-height: 120vh;
+  }
+  
+
+  .process-container {
+    display: flex;
+  }
+  
+  .imboxes{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    gap:140px;
+  }
+
+  .process-step {
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    height: 115px;
+    width: 174px;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .process-step img { 
+    padding-top: 25px; 
+  }
+  .process-step p { 
+    margin-top: 5px;
+  }
+
+  #firstimgbox{
+    background-color: #c1ffff;
+    margin-top: 0em;
+    margin-left: 9em;
+  }
+  #secimgbox{
+    background-color: #B7FFE4;
+    margin-left: 22em;
+    width: 180px;
+  }
+  #thirdimgbox{
+    background-color: #BBD5FF;
+    margin-top:7.6em;
+    margin-left: 13em;
+  }
+
+  .firstcont{
+    margin-left: 5em;
+    margin-top: 7em;
+    width: 350px;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  #pfirst{
+    width: 230px;
+    font-weight: bold;
+    font-size: x-large;
+  }
+
+  #psecond{
+    font-size: small;
+    margin-top: -0.5em;
+  }
+
+  #pthird{
+    padding-top: 27px;
+    font-size: small;
+  }
+
+  .submit-container{
+    display:flex;
+  }
+  .submit{
+    display: flex;
+    height:34px;
+    width: 140px;
+    border-radius: 7px;;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9em;
+    margin-left: 1.4em;
+    cursor: pointer;
+  }
+  #reg{
+    background-color: #130F26;
+    color: white;
+    border: 1px solid #130F26;
+    font-weight: lighter;
+  }
+  #log{
+    background-color: white;
+    color: #130F26;
+    border: 1px solid #130F26;
+    margin-left: 0.3em;
+  }

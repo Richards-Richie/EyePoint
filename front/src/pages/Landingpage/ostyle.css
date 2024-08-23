@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+#Ourservices {
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    min-height: 130vh;
+
+  }
+
+  
+  .services-main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }  
+  .header {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-family: 'Outfit', sans-serif;
+    padding: 20px;
+    color: black;
+  }
+  
+  .header h1 {
+    margin: 0;
+    height: 43.49px;
+  }
+
+  .main-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  
+  .services-box {
+    /* width: 781.16px; */
+    height: 569.3px;
+    border: 1px solid #FF834B;
+    padding: 10px;
+    position: relative;
+    border-radius: 10px;
+    padding-top: 100px;
+    border: 1px solid #FF834B;
+    padding: 20px;
+    margin: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px #FF834B;
+  }
+  .services-box:hover {
+    border-width: 2px;
+    box-shadow: 0 4px 10px #FF834B;
+    border: 3px solid #FF834B;
+  }
+  
+  
+  .services-logo-heading {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1px;
+    padding-top: 115px;
+  }
+  
+  .services-logo {
+
+    margin-left: 50px;
+    background-color: white;
+  }
+  .FunWindow{
+    font-size: 25px;
+    font-weight: lighter;
+    color:#FF834B;
+    margin-top: 0px;
+    margin-left: -20px;
+
+  }
+  
+  .services-description {
+    text-align: left;
+    margin-bottom: -150px;
+    padding-left: 60px;;
+    color: #999999;
+    width:655.68px;
+    height:229.27px;
+    font-family: 'Outfit', sans-serif;
+  }
+  .FunWindow{
+     font-weight:bold ;
+  }
+  .arrow-container {
+    position: absolute;
+    bottom: 10px;
+    left: 70px;
+  }
+  
+  .arrow {
+    width: 129.91px;
+    height: 46.37px;
+  }
+
+  .highlight {
+    color: #55BDB3;
+  }
+  /* Positioning the images outside the box */
+  .services-box-container {
+    position: relative;
+  }
+  .top-left-image {
+    position: absolute;
+    top: -90px;
+    left: -250px;
+    width: 239px;
+    height: 285.36px;
+    background-color: white;
+    display:block;
+
+  }
+  
+  .top-right-image {
+    position: absolute;
+    top: -20px;
+    right: -90px;
+    width: 143.68px;
+    height: 144.25px;
+    display:block;
+    background-color: white;
+  }
+  
+  .bottom-right-image {
+    position: absolute;
+    bottom: -120px;
+    right: -270px;
+    width: 274.46px;
+    height: 261.06px;
+    display:block;
+    background-color: white;
+  }
+  .tlogo{
+    position: absolute;    
+    right: 90px;
+    width: 219px;
+    height: 216px;
+    background-color: white;
+    border-radius: 95px;
+  }
+
+.services-image-container {
+  background-color: white;
+  display: inline-block; 
+  padding: 10px; 
+}
